@@ -16,23 +16,23 @@ Hello, business innovator! 🌎 I'm [Santiago PATINO SERNA](https://www.linkedin
 -**Outlier Prediction**: Since outliers were excluded from the main model, a rapid auxiliary model, Prophet, is used specifically for these cities. This approach strictly follows their historical trends to forecast their future IFI tax values.
 
 ## 📸 Key Visual Insights
-![Pair Plot of Feature Engineering variable](https://drive.google.com/uc?export=view&id=1Q9LoDcBf3y0L6Sd-E-thehrBdz8ZLZ69)  
-*Analysis of the RAW variables plus the feature-engineered ones. In this image, variables have been cleaned of outliers and normalized.*
+![Comparative analisys of anual groth rate](https://drive.google.com/uc?export=view&id=1Q9LoDcBf3y0L6Sd-E-thehrBdz8ZLZ69)  
+*Based on the five-year predictions starting from 2023, what is the annual growth rate of the IFI tax across all cities in France?*
 
-![KDE of the Predictable Variable Y](https://drive.google.com/uc?export=view&id=1AYZxrO84QWsuCw3qU2kv9Z0kxclMNCQS)  
-*KDE analysis to view the distribution of the predictable Y variable, equivalent to the number of tax payers multiplied by the average tax for each city. This variable has been normalized and is without outliers.*
+![Where to invest in France based on the annual growth of the IFI tax?](https://drive.google.com/uc?export=view&id=1QDWiHDt0677bMQwyboFA8cx38t_-cOoJ)  
+*A dynamic chart that provides a quick overview of which cities in France are favorable or unfavorable for investment, based on the IFI tax growth rate from 2023 over a period of 5 years.*
 
-![Results of the different tested models](https://drive.google.com/uc?export=view&id=1AiKaGMoQ7V1PF4QgQZXDHBL_vGGMxe0y)  
-*Numerical analysis of various metrics across all models to select the optimal one.*
+![Actual vs Predicted for 10 random cities](https://drive.google.com/uc?export=view&id=1Q7F7M3UKmtSztHyQdI22JaUCCCAuJ2m9)  
+*Analysis of the Continuity of IFI Tax Prediction in Ten Randomly Selected Cities.*
 
-![AI Analysis to select the best model](https://drive.google.com/uc?export=view&id=1Ahiym3e69XDaTOqpktqRGYhHawW5v_ks)  
-*This shows the AI's analysis of the previous chart to select the best model.*
+![Yearly Growth rate per city (TOP 5 cities)](https://drive.google.com/uc?export=view&id=1QG5kQcS6l4f9lL3H6tmGiAaxiAfPRKoQ)  
+*Detailed Analysis of the Top Cities and Their Growth*
 
-![Results XGboost model](https://drive.google.com/uc?export=view&id=1AbNa3WRHvWRkZo_czA6L5Rl8ZQkPLjKh)
-*Results of the model selected by the generative AI as the best.*
+![Graphic Analysis of the Top and Flop Cities Based on Their Growth Rate](https://drive.google.com/uc?export=view&id=1QOUo40Jnefq9innVrkNThmp3Qm7iJOq7)
+*Visualization Available by Canton, Where Only the Concerned Cities are Highlighted with Color*
 
-![Graphical representation of the best predictive model selected by GEN AI](https://drive.google.com/uc?export=view&id=1AlAF2HVU3I0YDkyI6WdrGF3mdJP6M2vq)
-*Graphical results of all models, compared to the best one selected by the AI.*
+![Global Map of France Showing the Top and Flop Cities](https://drive.google.com/uc?export=view&id=1QGArpq8fYlVokxHVKhN7QxLrcNGQ4CzQ)
+*This map graphically represents points at the midpoint of the coordinates of each region.*
 
 ---
 
